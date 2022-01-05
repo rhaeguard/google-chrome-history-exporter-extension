@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Export History</title>
+
+        <script src="popup.js"></script>
+
+        <style>
+            html {
+                min-height: 100px;
+                min-width: 250px;
+
+                text-align: center;
+            }
+
+            #download-btn {
+                width: 100%;
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            #download-btn:hover {
+                background-color: #75ac77;
+            }
+
+            #download-btn:active {
+                background-color: #4CAF50;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Export History</h1>
+
+        <button id="download-btn">Export as JSON</button>
+    </body>
+</html>
